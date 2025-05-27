@@ -3,9 +3,9 @@ name: Deploy Family Allowance Tracker
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, gh-pages ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, gh-pages ]
 
 permissions:
   contents: write
@@ -29,7 +29,7 @@ jobs:
     - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
-        node-js-version: '18'
+        node-version: '18'
         cache: 'npm'
 
     - name: Install dependencies
@@ -116,9 +116,12 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 
+const repoOwner = 'natebarksdale'; // Replace with your GitHub username
+const repoName = 'barksdale-family'; // Replace with your repository name
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <App repoOwner={repoOwner} repoName={repoName} />
   </React.StrictMode>,
 )
 
