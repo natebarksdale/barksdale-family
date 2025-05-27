@@ -1,5 +1,5 @@
 # .github/workflows/deploy.yml
-name: Deploy Family Allowance Tracker
+name: Deploy Family Allowance Tracker!
 
 on:
   push:
