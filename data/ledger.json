@@ -1,0 +1,67 @@
+{
+    "kids": [
+      {
+        "id": 1,
+        "name": "Alex",
+        "age": 5,
+        "allowance": 25.50,
+        "savings": {
+          "cash": 15.00,
+          "moneyMarket": 8.25,
+          "sp500": 2.25,
+          "tithe": 0.00
+        },
+        "tabletTokens": 12,
+        "behaviorPoints": 45,
+        "streaks": {
+          "chores": 3,
+          "bedtime": 7,
+          "homework": 0
+        },
+        "completedChores": []
+      },
+      {
+        "id": 2,
+        "name": "Jordan",
+        "age": 7,
+        "allowance": 42.75,
+        "savings": {
+          "cash": 20.00,
+          "moneyMarket": 15.50,
+          "sp500": 7.25,
+          "tithe": 0.00
+        },
+        "tabletTokens": 8,
+        "behaviorPoints": 38,
+        "streaks": {
+          "chores": 5,
+          "bedtime": 2,
+          "homework": 4
+        },
+        "completedChores": []
+      },
+      {
+        "id": 3,
+        "name": "Riley",
+        "age": 9,
+        "allowance": 63.25,
+        "savings": {
+          "cash": 35.00,
+          "moneyMarket": 20.00,
+          "sp500": 8.25,
+          "tithe": 0.00
+        },
+        "tabletTokens": 15,
+        "behaviorPoints": 52,
+        "streaks": {
+          "chores": 8,
+          "bedtime": 4,
+          "homework": 6
+        },
+        "completedChores": []
+      }
+    ],
+    "transactions": [],
+    "lastUpdated": "2025-05-27T00:00:00Z"
+  }
+  
