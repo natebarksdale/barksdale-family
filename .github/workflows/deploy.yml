@@ -3,9 +3,9 @@ name: Deploy Family Allowance Tracker!
 
 on:
   push:
-    branches: [ main, gh-pages ]
+    branches: [ main ]
   pull_request:
-    branches: [ main, gh-pages ]
+    branches: [ main ]
 
 permissions:
   contents: write
